@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="View3" customModule="abooapplication" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.8399999737739563" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect with your community." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQS-D0-WmQ">
+                    <rect key="frame" x="0.0" y="20" width="375" height="101"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="101" id="q8T-UK-pan"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="31"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="neighbourhood" translatesAutoresizingMaskIntoConstraints="NO" id="Jb4-Me-UOM" customClass="roundImg" customModule="abooapplication" customModuleProvider="target">
+                    <rect key="frame" x="37" y="148" width="300" height="261"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="261" id="JOz-P0-YvP"/>
+                        <constraint firstAttribute="width" constant="300" id="bSL-h9-Wzo"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.54000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Find out what everyone is doing tonight." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0h-tv-9Kg">
+                    <rect key="frame" x="37" y="417" width="300" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="zVv-hw-SLa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <pageControl opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="ZUK-sr-2ch">
+                    <rect key="frame" x="150" y="475" width="75" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="Wbo-xe-Fcd"/>
+                    </constraints>
+                    <color key="pageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="0.12642780170000001" colorSpace="calibratedRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.71764705880000002" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="S0h-tv-9Kg" firstAttribute="top" secondItem="Jb4-Me-UOM" secondAttribute="bottom" constant="8" id="EJx-FZ-r0D"/>
+                <constraint firstItem="ZUK-sr-2ch" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="150" id="Hsj-Xz-Oei"/>
+                <constraint firstAttribute="trailing" secondItem="ZUK-sr-2ch" secondAttribute="trailing" constant="150" id="OWP-hG-ZEj"/>
+                <constraint firstItem="Jb4-Me-UOM" firstAttribute="top" secondItem="FQS-D0-WmQ" secondAttribute="bottom" constant="27" id="Smf-4M-iuV"/>
+                <constraint firstItem="Jb4-Me-UOM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="37" id="TGi-TH-yXC"/>
+                <constraint firstItem="FQS-D0-WmQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="VWJ-WZ-cJU"/>
+                <constraint firstItem="ZUK-sr-2ch" firstAttribute="top" secondItem="Jb4-Me-UOM" secondAttribute="bottom" constant="66" id="e6m-jw-5PF"/>
+                <constraint firstItem="FQS-D0-WmQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ozR-Z5-wOD"/>
+                <constraint firstAttribute="trailing" secondItem="FQS-D0-WmQ" secondAttribute="trailing" id="wCg-qO-Qpc"/>
+                <constraint firstItem="S0h-tv-9Kg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ykz-qw-EXS"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="neighbourhood" width="454" height="284"/>
+    </resources>
+</document>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>815685010405-ord7ceqjab6vm9gdse96bndcj2pcjb4k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.815685010405-ord7ceqjab6vm9gdse96bndcj2pcjb4k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDeUv29GV-FUXmCs2swI4P7at84iXohfUM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>815685010405</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.brandongregoire.abooapplication</string>
+	<key>PROJECT_ID</key>
+	<string>abooapp-b92dc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>abooapp-b92dc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:815685010405:ios:4c6dc1dab01282bd</string>
+	<key>DATABASE_URL</key>
+	<string>https://abooapp-b92dc.firebaseio.com</string>
+</dict>
+</plist>
